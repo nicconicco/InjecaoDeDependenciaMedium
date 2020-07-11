@@ -1,5 +1,6 @@
 package nicco.com.br.dependencyinjection.dagger_android
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
@@ -7,6 +8,7 @@ import androidx.lifecycle.Observer
 import nicco.com.br.dependencyinjection.App
 import nicco.com.br.dependencyinjection.R
 import nicco.com.br.dependencyinjection.databinding.ActivityDaggerAndroidBinding
+import nicco.com.br.dependencyinjection.fake.EspressoActivity
 import javax.inject.Inject
 
 class DaggerAndroidActivity : AppCompatActivity() {
@@ -31,7 +33,7 @@ class DaggerAndroidActivity : AppCompatActivity() {
                     //todo: faz alguma coisa
                 }
                 is ViewState.Error -> {
-                    //todo: faz alguma coisa
+                    startActivity(Intent(this, EspressoActivity::class.java))
                 }
             }
         })

@@ -5,7 +5,7 @@ import nicco.com.br.dependencyinjection.dagger_android.di.AppComponent
 import nicco.com.br.dependencyinjection.dagger_android.di.DaggerAppComponent
 
 
-class App : Application() {
+open class App : Application() {
     val appComponent: AppComponent by lazy {
         initializeComponent()
     }
