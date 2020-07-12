@@ -1,2 +1,5 @@
+include ':moduletwo'
+include ':moduleone'
+include ':core'
 include ':app'
 rootProject.name = "DependencyInjection"
