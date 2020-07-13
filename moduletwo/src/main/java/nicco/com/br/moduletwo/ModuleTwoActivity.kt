@@ -3,6 +3,7 @@ package nicco.com.br.moduletwo
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.gaelmarhic.quadrant.QuadrantConstants.MODULE_ONE_ACTIVITY
 import dagger.android.support.DaggerAppCompatActivity
 import kotlinx.android.synthetic.main.activity_module_two.*
 import nicco.com.br.core.ExpensiveObject
@@ -24,7 +25,7 @@ class ModuleTwoActivity : DaggerAppCompatActivity() {
 
         button2.setOnClickListener {
             val intent = Intent()
-            intent.setClassName(this, "nicco.com.br.moduleone.ModuleOneActivity")
+            intent.setClassName(this, MODULE_ONE_ACTIVITY)
             startActivity(intent)
         }
     }
