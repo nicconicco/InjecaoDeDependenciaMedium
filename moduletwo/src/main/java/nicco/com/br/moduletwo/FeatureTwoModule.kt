@@ -6,5 +6,5 @@ import dagger.Provides
 @Module
 class FeatureTwoModule {
     @Provides
-    fun provideString() = "Modulo 2 funcionando com dagger"
+    fun provide2String() = "Modulo 2 funcionando com dagger"
 }

@@ -22,8 +22,10 @@ class ModuleOneActivity : DaggerAppCompatActivity() {
 
         textView.text = text
 
-        val intent = Intent()
-        intent.setClassName(this, "nicco.com.br.moduletwo.ModuleTwoActivity")
-        startActivity(intent)
+        button.setOnClickListener {
+            val intent = Intent()
+            intent.setClassName(this, "nicco.com.br.moduletwo.ModuleTwoActivity")
+            startActivity(intent)
+        }
     }
 }
