@@ -3,12 +3,12 @@
     package="nicco.com.br.dependencyinjection">
 
     <application
+        android:name="nicco.com.br.dependencyinjection.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name="nicco.com.br.dependencyinjection.App"
         android:theme="@style/AppTheme">
         <activity android:name="nicco.com.br.dependencyinjection.MainActivity">
             <intent-filter>
@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name="nicco.com.br.moduleone.ModuleOneActivity" />
-        <activity android:name="nicco.com.br.moduletwo.ModuleTwoActivity"/>
+        <activity android:name="nicco.com.br.moduletwo.ModuleTwoActivity" />
+        <activity android:name="nicco.com.br.moduleone.screentwo.ModuleOneScreenTwoActivity" />
     </application>
 
 </manifest>

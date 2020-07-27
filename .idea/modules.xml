@@ -6,7 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="DependencyInjection/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core.iml" group="DependencyInjection/core" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/moduleone/moduleone.iml" filepath="$PROJECT_DIR$/.idea/modules/moduleone/moduleone.iml" group="DependencyInjection/moduleone" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modulethree/modulethree.iml" filepath="$PROJECT_DIR$/.idea/modules/modulethree/modulethree.iml" group="DependencyInjection/modulethree" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/moduletwo/moduletwo.iml" filepath="$PROJECT_DIR$/.idea/modules/moduletwo/moduletwo.iml" group="DependencyInjection/moduletwo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/navigation.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/navigation.iml" group="DependencyInjection/navigation" />
     </modules>
   </component>
 </project>

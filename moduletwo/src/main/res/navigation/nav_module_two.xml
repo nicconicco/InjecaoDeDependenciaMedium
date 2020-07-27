@@ -1,0 +1,21 @@
+<navigation xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_feature_two"
+    app:startDestination="@id/fragment_c"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/fragment_c"
+        android:name="nicco.com.br.moduletwo.screentwo.ModuleTwoFragment">
+
+        <deepLink app:uri="@string/navigation_module_two"/>
+        <action
+            android:id="@+id/action_go_to_d"
+            app:popUpTo="@+id/fragment_c"
+            />
+<!--            app:destination="@+id/fragment_d"-->
+
+    </fragment>
+
+</navigation>

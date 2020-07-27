@@ -1,3 +1,5 @@
+include ':navigation'
+include ':modulethree'
 include ':moduletwo'
 include ':moduleone'
 include ':core'

@@ -94,6 +94,12 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit:1.1.1"
     androidTestImplementation "androidx.test.espresso:espresso-core:3.2.0-beta01"
 
+    // Navigation entre os modulos
+    implementation "androidx.navigation:navigation-fragment:2.3.0"
+    implementation "androidx.navigation:navigation-ui:2.3.0"
+    implementation "androidx.navigation:navigation-fragment-ktx:2.3.0"
+    implementation "androidx.navigation:navigation-ui-ktx:2.3.0"
+
     //Mockk
     testImplementation "io.mockk:mockk:1.9.3"
 }
