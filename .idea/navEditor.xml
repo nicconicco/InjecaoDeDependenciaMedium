@@ -8,7 +8,7 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="nav_feature_one">
+                  <entry key="blankFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -20,7 +20,19 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="nav_feature_three">
+                  <entry key="nav_module_one">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="12" />
+                            <option name="y" value="12" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="nav_module_three">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -32,7 +44,7 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="nav_feature_two">
+                  <entry key="nav_module_two">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">

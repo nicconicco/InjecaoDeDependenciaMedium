@@ -2,18 +2,23 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_feature_one"
+    android:id="@+id/nav_module_one"
     app:startDestination="@id/fragment_module_one"
     tools:ignore="UnusedNavigation">
 
     <fragment
         android:id="@+id/fragment_module_one"
-        android:name="nicco.com.br.moduleone.screentwo.ModuleOneFragment">
+        android:name="nicco.com.br.moduleone.screentwo.ModuleOneFragment"
+        tools:layout="@layout/fragment_module_one"
+        >
 
         <deepLink app:uri="@string/navigation_module_one"/>
 
         <action
-            android:id="@+id/action_go_to_b"
-            app:popUpTo="@+id/fragment_module_one" />
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@+id/nav_module_one" />
     </fragment>
 </navigation>

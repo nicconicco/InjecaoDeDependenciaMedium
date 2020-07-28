@@ -2,5 +2,5 @@
 <resources>
     <string name="navigation_module_one">myApp://nav_module_fragment_one</string>
     <string name="navigation_module_two">myApp://nav_module_fragment_two</string>
-    <string name="navigation_module_three">myApp://nav_module_fragment_two</string>
+    <string name="navigation_module_three">myApp://nav_module_fragment_three</string>
 </resources>

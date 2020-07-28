@@ -13,10 +13,4 @@ class ModuleThreeScreenTwoFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_module_three_screen_two, container, false)
     }
-
-    companion object {
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            ModuleThreeScreenTwoFragment()
-    }
 }
