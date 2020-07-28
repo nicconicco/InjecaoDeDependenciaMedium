@@ -32,12 +32,22 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/nicco/com/br/dependencyinjection/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/nicco/com/br/dependencyinjection/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_app.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moduleone/src/main/java/nicco/com/br/moduleone/screentwo/ModuleOneFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/moduleone/src/main/java/nicco/com/br/moduleone/screentwo/ModuleOneFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduleone/src/main/res/navigation/nav_module_one.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moduleone/src/main/res/navigation/nav_module_one.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleone/src/main/res/layout/fragment_module_one.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moduleone/src/main/res/layout/fragment_module_one.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulethree/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/modulethree/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulethree/src/main/java/nicco/com/br/modulethree/ModuleThreeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/modulethree/src/main/java/nicco/com/br/modulethree/ModuleThreeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulethree/src/main/res/layout/fragment_module_three.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modulethree/src/main/res/layout/fragment_module_three.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulethree/src/main/res/navigation/nav_module_three.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modulethree/src/main/res/navigation/nav_module_three.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduletwo/src/main/java/nicco/com/br/moduletwo/ModuleTwoActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/moduletwo/src/main/java/nicco/com/br/moduletwo/ModuleTwoActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduletwo/src/main/res/layout/activity_module_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moduletwo/src/main/res/layout/activity_module_two.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduletwo/src/main/res/layout/fragment_module_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moduletwo/src/main/res/layout/fragment_module_two.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduletwo/src/main/res/navigation/nav_module_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moduletwo/src/main/res/navigation/nav_module_two.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +97,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/nicco/com/br/dependencyinjection/modularize_dagger" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1595806184924" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1595902442727" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -300,26 +310,26 @@
     <state x="495" y="256" key="AndroidCreateXmlResourceDialog/0.23.1280.726@0.23.1280.726" timestamp="1594489472925" />
     <state x="495" y="257" key="AndroidCreateXmlResourceDialog/0.23.1280.728@0.23.1280.728" timestamp="1595875289885" />
     <state x="495" y="258" key="AndroidCreateXmlResourceDialog/0.23.1280.730@0.23.1280.730" timestamp="1595884109869" />
-    <state width="1238" height="346" key="GridCell.Tab.0.bottom" timestamp="1595898332840">
+    <state width="1238" height="346" key="GridCell.Tab.0.bottom" timestamp="1595898938837">
       <screen x="0" y="23" width="1280" height="730" />
     </state>
     <state width="1238" height="345" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1594652127860" />
-    <state width="1238" height="346" key="GridCell.Tab.0.bottom/0.23.1280.730@0.23.1280.730" timestamp="1595898332840" />
-    <state width="1238" height="346" key="GridCell.Tab.0.center" timestamp="1595898332839">
+    <state width="1238" height="346" key="GridCell.Tab.0.bottom/0.23.1280.730@0.23.1280.730" timestamp="1595898938837" />
+    <state width="1238" height="346" key="GridCell.Tab.0.center" timestamp="1595898938836">
       <screen x="0" y="23" width="1280" height="730" />
     </state>
     <state width="1238" height="345" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1594652127859" />
-    <state width="1238" height="346" key="GridCell.Tab.0.center/0.23.1280.730@0.23.1280.730" timestamp="1595898332839" />
-    <state width="1238" height="346" key="GridCell.Tab.0.left" timestamp="1595898332839">
+    <state width="1238" height="346" key="GridCell.Tab.0.center/0.23.1280.730@0.23.1280.730" timestamp="1595898938836" />
+    <state width="1238" height="346" key="GridCell.Tab.0.left" timestamp="1595898938835">
       <screen x="0" y="23" width="1280" height="730" />
     </state>
     <state width="1238" height="345" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1594652127859" />
-    <state width="1238" height="346" key="GridCell.Tab.0.left/0.23.1280.730@0.23.1280.730" timestamp="1595898332839" />
-    <state width="1238" height="346" key="GridCell.Tab.0.right" timestamp="1595898332840">
+    <state width="1238" height="346" key="GridCell.Tab.0.left/0.23.1280.730@0.23.1280.730" timestamp="1595898938835" />
+    <state width="1238" height="346" key="GridCell.Tab.0.right" timestamp="1595898938836">
       <screen x="0" y="23" width="1280" height="730" />
     </state>
     <state width="1238" height="345" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1594652127859" />
-    <state width="1238" height="346" key="GridCell.Tab.0.right/0.23.1280.730@0.23.1280.730" timestamp="1595898332840" />
+    <state width="1238" height="346" key="GridCell.Tab.0.right/0.23.1280.730@0.23.1280.730" timestamp="1595898938836" />
     <state x="141" y="23" key="SettingsEditor" timestamp="1594488066723">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
@@ -329,19 +339,19 @@
     </state>
     <state x="310" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.724@0.23.1280.724" timestamp="1595712823522" />
     <state x="310" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.728@0.23.1280.728" timestamp="1595866517936" />
-    <state x="292" y="141" width="695" height="490" key="find.popup" timestamp="1595889608021">
+    <state x="292" y="141" width="695" height="490" key="find.popup" timestamp="1595901790423">
       <screen x="0" y="23" width="1280" height="730" />
     </state>
     <state x="292" y="141" width="695" height="486" key="find.popup/0.23.1280.726@0.23.1280.726" timestamp="1594488835711" />
     <state x="292" y="141" width="695" height="489" key="find.popup/0.23.1280.729@0.23.1280.729" timestamp="1595886600018" />
-    <state x="292" y="141" width="695" height="490" key="find.popup/0.23.1280.730@0.23.1280.730" timestamp="1595889608021" />
-    <state x="305" y="70" width="670" height="680" key="search.everywhere.popup" timestamp="1595893206401">
+    <state x="292" y="141" width="695" height="490" key="find.popup/0.23.1280.730@0.23.1280.730" timestamp="1595901790423" />
+    <state x="305" y="70" width="670" height="680" key="search.everywhere.popup" timestamp="1595901779283">
       <screen x="0" y="23" width="1280" height="730" />
     </state>
     <state x="305" y="70" key="search.everywhere.popup/0.23.1280.723@0.23.1280.723" timestamp="1594486676273" />
     <state x="305" y="70" width="670" height="676" key="search.everywhere.popup/0.23.1280.726@0.23.1280.726" timestamp="1594573990562" />
     <state x="305" y="70" width="670" height="678" key="search.everywhere.popup/0.23.1280.728@0.23.1280.728" timestamp="1595875298689" />
-    <state x="305" y="70" width="670" height="680" key="search.everywhere.popup/0.23.1280.730@0.23.1280.730" timestamp="1595893206401" />
+    <state x="305" y="70" width="670" height="680" key="search.everywhere.popup/0.23.1280.730@0.23.1280.730" timestamp="1595901779283" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

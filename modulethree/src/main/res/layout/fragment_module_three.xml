@@ -5,13 +5,27 @@
     android:layout_height="match_parent"
     android:background="@color/blue"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".ModuleThreeFragment">
 
     <TextView
         android:gravity="center"
         android:textSize="20sp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="I'M IN FRAGMENT THREE MODULE THREE" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO TO SECOND SCREEN MODULE THREE"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO TO FIRST MODULE ACTIVITY"/>
+
 
 </LinearLayout>

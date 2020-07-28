@@ -157,18 +157,18 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="fragment_c">
+                  <entry key="fragment_module_two">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="32" />
+                            <option name="x" value="12" />
                             <option name="y" value="12" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_go_to_d">
+                            <entry key="action_module_two">
                               <value>
                                 <LayoutPositions />
                               </value>

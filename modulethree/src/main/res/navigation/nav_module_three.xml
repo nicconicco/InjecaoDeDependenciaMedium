@@ -8,16 +8,20 @@
 
     <fragment
         android:id="@+id/fragment_module_three"
-        android:name="nicco.com.br.modulethree.ModuleThreeFragment">
+        android:name="nicco.com.br.modulethree.ModuleThreeFragment"
+        tools:layout="@layout/fragment_module_three">
+
+        <deepLink app:uri="@string/navigation_module_three" />
 
         <action
-            android:id="@+id/action_go_to_f"
+            android:id="@+id/action_go_to_second_screen"
             app:destination="@+id/fragment_module_three_second_screen"
             app:popUpTo="@+id/fragment_module_three" />
     </fragment>
     <fragment
         android:id="@+id/fragment_module_three_second_screen"
-        android:name="nicco.com.br.modulethree.ModuleThreeScreenTwoFragment">
-        <deepLink app:uri="@string/navigation_module_three" />
+        android:name="nicco.com.br.modulethree.ModuleThreeScreenTwoFragment"
+        tools:layout="@layout/fragment_module_three_screen_two">
+
     </fragment>
 </navigation>

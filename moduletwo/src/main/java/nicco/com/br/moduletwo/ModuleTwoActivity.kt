@@ -1,14 +1,18 @@
 package nicco.com.br.moduletwo
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.navigation.fragment.NavHostFragment.findNavController
+import androidx.navigation.fragment.findNavController
 import com.gaelmarhic.quadrant.QuadrantConstants.MODULE_ONE_ACTIVITY
 import com.gaelmarhic.quadrant.QuadrantConstants.MODULE_ONE_SCREEN_TWO_ACTIVITY
 import com.gaelmarhic.quadrant.QuadrantConstants.MODULE_TWO_ACTIVITY
 import dagger.android.support.DaggerAppCompatActivity
 import kotlinx.android.synthetic.main.activity_module_two.*
 import nicco.com.br.core.ExpensiveObject
+import nicco.com.br.core.FragmentUtils
 import javax.inject.Inject
 
 class ModuleTwoActivity : DaggerAppCompatActivity() {
@@ -28,11 +32,6 @@ class ModuleTwoActivity : DaggerAppCompatActivity() {
         button.setOnClickListener {
             val intent = Intent()
             intent.setClassName(this, MODULE_ONE_ACTIVITY)
-            startActivity(intent)
-        }
-        button2.setOnClickListener {
-            val intent = Intent()
-            intent.setClassName(this, MODULE_ONE_SCREEN_TWO_ACTIVITY)
             startActivity(intent)
         }
     }

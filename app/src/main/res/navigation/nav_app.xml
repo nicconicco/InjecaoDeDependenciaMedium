@@ -6,7 +6,7 @@
     app:startDestination="@id/nav_module_one">
 
     <include app:graph="@navigation/nav_module_one" />
-<!--    <include app:graph="@navigation/nav_module_two" />-->
-<!--    <include app:graph="@navigation/nav_module_three" />-->
+    <include app:graph="@navigation/nav_module_two" />
+    <include app:graph="@navigation/nav_module_three" />
 
 </navigation>
