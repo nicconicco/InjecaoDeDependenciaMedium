@@ -10,15 +10,14 @@ import nicco.com.br.moduleone.ModuleOneActivity
 
 class MainActivity : DaggerAppCompatActivity() {
 
-//    private val navController: NavController by lazy { findNavController(R.id.fragment_nav_host) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        button.setOnClickListener {
-            startActivity(Intent(this, ModuleOneActivity::class.java))
-        }
+//        button.setOnClickListener {
+//            startActivity(Intent(this, ModuleOneActivity::class.java))
+//        }
     }
 
 //    override fun onSupportNavigateUp(): Boolean {

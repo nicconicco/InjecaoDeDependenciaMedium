@@ -18,10 +18,10 @@ class ModuleOneFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_module_one, container, false)
 
-        view.btn.setOnClickListener {
-            val uri = Uri.parse(getString(R.string.navigation_module_two))
-            findNavController().navigate(uri)
-        }
+//        view.btn.setOnClickListener {
+//            val uri = Uri.parse(getString(R.string.navigation_module_two))
+//            findNavController().navigate(uri)
+//        }
 
         return view
     }
