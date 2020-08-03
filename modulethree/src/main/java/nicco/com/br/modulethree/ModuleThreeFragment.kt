@@ -32,6 +32,11 @@ class ModuleThreeFragment : Fragment() {
             }
         }
 
+        view.btn3.setOnClickListener {
+            val uri = Uri.parse(getString(R.string.navigation_module_three_second))
+            findNavController().navigate(uri)
+        }
+
         return view
     }
 

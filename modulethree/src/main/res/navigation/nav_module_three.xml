@@ -23,5 +23,6 @@
         android:name="nicco.com.br.modulethree.ModuleThreeScreenTwoFragment"
         tools:layout="@layout/fragment_module_three_screen_two">
 
+        <deepLink app:uri="@string/navigation_module_three_second" />
     </fragment>
 </navigation>
